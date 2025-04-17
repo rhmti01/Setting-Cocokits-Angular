@@ -1,15 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { CheckboxComponent } from "@cocokits/angular-checkbox";
-
+import { ButtonComponent , CheckboxComponent , FormFieldComponent , LabelComponent , InputComponent } from '@cocokits/angular-components';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,CheckboxComponent],
+  imports: [RouterOutlet , ButtonComponent ,CheckboxComponent , FormFieldComponent , LabelComponent , InputComponent ],
   styleUrl: './app.component.css',
-  template: `
-    <cck-checkbox>I accept the <a href="/">Privacy Policy</a></cck-checkbox>
-  `,
+  standalone : true ,
+  templateUrl: './app.component.html',
 })
 export class AppComponent {
   title = 'Setting-Cocokits-Angular';

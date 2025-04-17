@@ -1,0 +1,49 @@
+{
+  "hash": "f6cbce0e",
+  "configHash": "75cfc7ef",
+  "lockfileHash": "561933e5",
+  "browserHash": "d682e40e",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "8d793537",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "8bbe8c93",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "bb329c76",
+      "needsInterop": false
+    },
+    "@cocokits/angular-components": {
+      "src": "../../../../../../node_modules/@cocokits/angular-components/fesm2022/cocokits-angular-components.mjs",
+      "file": "@cocokits_angular-components.js",
+      "fileHash": "4ed4b164",
+      "needsInterop": false
+    },
+    "@cocokits/theme-frames-x": {
+      "src": "../../../../../../node_modules/@cocokits/theme-frames-x/index.js",
+      "file": "@cocokits_theme-frames-x.js",
+      "fileHash": "d2a40689",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-QRKDDEVT": {
+      "file": "chunk-QRKDDEVT.js"
+    },
+    "chunk-NKLOH3GN": {
+      "file": "chunk-NKLOH3GN.js"
+    },
+    "chunk-TXDUYLVM": {
+      "file": "chunk-TXDUYLVM.js"
+    }
+  }
+}
